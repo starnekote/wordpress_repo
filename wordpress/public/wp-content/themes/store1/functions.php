@@ -19,4 +19,5 @@
             register_nav_menu('top', 'Головне меню');
             register_nav_menu('bottom', 'Політика конфіденційності');
          }
+         remove_filter('template_redirect', 'redirect_canonical');
 ?>
